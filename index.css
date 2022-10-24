@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+*{    
+    margin : 0;
+    padding: 0;
+}
+
+/* CSS code for Portfolio Page.*/
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(147, 139, 134);
+    /* width : 300px; */
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    height: 98.5vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    list-style:none;
+    font-size: 26px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(97, 62, 67);
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+
+.container{
+    display: flex;
+    background-color: aliceblue;
+}
+.infoContainer{
+    height:60vh;
+    width: 78vw;
+    margin: 144px auto;
+    margin-left: 259px;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(39, 139, 108);
+    border-radius: 35px;
+    color: blanchedalmond;
+}
+
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3.5em;
+    font-weight: bold;
+}
+.about{
+    font-size: 1.4em;
+    margin-top: 21px;
+    font-weight: bold;
+}
+.buttons{
+    margin-top: 30px;
+    font-size: 10px;
+}
+.buttons button{
+    padding: 9px 19px;
+    border-radius: 20px;
+    color:aliceblue;
+    background-color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+    margin:3px 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: tomato;
+    color: darkred;
+}
+.devinfo{
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+    margin-left: 25px;
+}
+.devpic img{
+    height:48vh;
+    border-style: solid;
+    border-color: black;
+    border-width: 2.5px;
+    border-radius: 35px;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+.ham{
+    margin-top: 4px;
+}
+.cross{
+    margin-left: 181px;
+    margin-top: 4px;
+}
+
+footer{
+    padding:24px;
+    text-align:center;
+    box-shadow: rgb(0 0 0 / 24%)0px 3px 8px;
+    font-weight:bold;
+}
+
+@media (max-width: 750px){
+    .devpic{
+        display: none;
+    }
+    .sidebar{
+        height: 60vh;
+    }
+    .infoContainer{
+        margin-top: 66vh;
+        margin-left:40px;
+    }
+}

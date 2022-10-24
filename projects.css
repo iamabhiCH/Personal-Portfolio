@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
+*{
+    margin : 0;
+    padding: 0;
+}
+
+.container{
+    background-color: white;
+}
+.skill{
+    background-color: rgb(236, 236, 212);
+    padding-top: 19px;
+    font-family: sans-serif;
+    height: 57vh;
+}
+.skill button{
+    padding: 5px 5px;
+    background-color: black;
+    color: bisque;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.skill button:hover{
+    background-color: aqua;
+    color: black;
+    border: 1px solid white;
+}
+
+.head{  
+    background-color: rgb(161, 148, 151);
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 35px;
+    font-size: 2rem;
+    color: cornsilk;
+}
+
+.head h1{
+    margin-left: 14px;
+    font-family: sans-serif;
+}
+
+.skill nav{
+    padding: 10px;
+    padding-top: 15px;
+    width: 37%;
+}
+
+.skill nav li{
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: azure;
+    padding: 4px 15px;
+    background-color: slategrey;
+    margin-left: 60px;
+    border-radius: 25px;
+}
+.skill nav li h3{
+    margin-left: 25px ;
+    color: bisque;
+    font-family: monospace;
+}
+hr{
+    background-color: black;
+    color: black;
+}
+
+.project{
+    background-color: rgb(247, 235, 247);
+    padding-top: 19px;
+    font-family: sans-serif;
+    height: 225vh;
+}
+
+.head1{
+    background-color: rgb(88, 146, 148);
+    padding: 10px 5px;
+    border-radius: 15px;
+    width: 95%;
+    margin-left: 35px;
+    font-size: 2rem;
+    color: cornsilk;
+}
+
+.head1 h1{
+    margin-left: 14px;
+    font-family: sans-serif;
+}
+.web{
+    background-color: black;
+    color: white;
+    width: 95%;
+    padding: 8px 7px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+.web h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+
+section{
+    background-color: darkseagreen;
+    margin-left: 100px;
+    margin-top: 22px;
+    padding: 10px 17px;
+    width: 80%;
+    height: 22vh;
+    border-radius: 15px;
+}
+
+section h4{
+    color: darkslategrey;
+    font-size: 1.5rem;
+} 
+section a button{
+    border: 2px solid slategray;
+    margin-left: 91%;
+    background-color: rgb(164, 207, 245);
+    color: rgb(95, 18, 20);
+    font-size: 1rem;
+    border-radius: 5px;
+    padding: 5px;
+}
+section a button:hover{
+    background-color: cornflowerblue;
+    color: black;
+    cursor: pointer;
+    border: 1px solid darkslategray;
+}
+section ul li{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.other-projects{
+    background-color: black;
+    color: white;
+    width: 95%;
+    padding: 8px 7px;
+    margin-top: 20px;
+    margin-left: 35px;
+    border-radius: 15px;
+}
+.other-projects h3{
+    text-align: center;
+    font-family: sans-serif;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 12px 15px;
+    font-size: 1,5rem;
+    font-family: sans-serif;
+}
+@media (max-width: 750px){
+    .skill{
+        height: 85vh;
+    }
+    .head{
+        width: 49vw;
+    }
+    .head h1{
+        text-align: center;
+    }
+    .skill nav li{
+        background-color: rgb(236, 236, 212);
+    }
+    .skill nav li h3{
+        margin-left: 5px ;
+        color: black;
+    }
+    .project{
+        height: 397vh;
+    }
+    .head1{
+        width: 75vw;
+    }
+    .web{
+        width: 75vw;
+    }
+    section{
+        height: 45vh;
+        margin-left: 25px;
+    }
+    section a button{
+        margin-left: 87px;
+        margin-top: 14px;
+    }
+    .other-projects{
+        width: 75vw;
+    }
+}
