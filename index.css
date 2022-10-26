@@ -44,7 +44,8 @@
     margin-left: 259px;
     display: flex;
     justify-content: space-around;
-    background-color: rgb(39, 139, 108);
+    /* background-color: rgb(39, 139, 108); */
+    background: linear-gradient(120deg,#06283D 20%,#243e4d 40%,#3D8361 100%);
     border-radius: 35px;
     color: blanchedalmond;
 }
@@ -68,7 +69,7 @@
 }
 .buttons button{
     padding: 9px 19px;
-    border-radius: 20px;
+    border-radius: 20px 2px;
     color:aliceblue;
     background-color: black;
     font-weight: bold;
@@ -77,8 +78,9 @@
     cursor: pointer;
 }
 .buttons button:hover{
-    background-color: tomato;
-    color: darkred;
+    background-color:cadetblue;
+    color:black;
+    transition: 0.7s;
 }
 .devinfo{
     font-size: 13px;
