@@ -16,8 +16,8 @@
 }
 .skill button{
     padding: 5px 5px;
-    background-color: black;
-    color: bisque;
+    background-color: rgb(30, 95, 121);
+    color: #fff;
     margin-left: 35px;
     margin-bottom: 10px;
     border-radius: 15px;
@@ -26,9 +26,9 @@
 }
 
 .skill button:hover{
-    background-color: aqua;
-    color: black;
-    border: 1px solid white;
+    background-color: #0F3D3E;
+    color: rgb(217, 116, 116);
+    border: 1px solid rgb(9, 127, 109);
 }
 
 .head{  
