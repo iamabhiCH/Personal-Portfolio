@@ -1,15 +1,11 @@
-// console.log("Script Running......")
-document.querySelector('.cross').style.display = 'none';
-document.querySelector('.hamburger').addEventListener("click", ()=>{
-    document.querySelector('.sidebar').classList.toggle('sidebarGo');
-    if(document.querySelector('.sidebar').classList.contains('sidebarGo')){
-        document.querySelector('.ham').style.display = 'inline'
-        document.querySelector('.cross').style.display = 'none'
-    }
-    else{
-        document.querySelector('.ham').style.display = 'none'
-        setTimeout(() => {
-            document.querySelector('.cross').style.display = 'inline'
-        },300);
-    }
+const hamburger = document.querySelector('.hamburger');
+const hamburger_icon = hamburger.querySelector('span');
+const mobile_menu = document.querySelector('.mobile-menu');
+
+hamburger.addEventListener('click', () => {
+	hamburger_icon.innerText = hamburger_icon.innerText === 'menu' 
+		? 'close'
+		: 'menu';
+	
+	mobile_menu.classList.toggle('is-open');
 })
